@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            grid-area: header;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 'header'
+                'footer';
+            /* width:100%; */
+        }
+
+        .header {
+            height: 700px;
+            width: 100%;
+            background-color: blueviolet;
+            background-image: url('A.png');
+            background-size: cover;
+            padding-bottom: 20px;
+            
+        }
+
+        .footer {
+            height: 270px;
+            background-color: #333333;
+        }
+
+        h5 {
+            color: rgb(40, 198, 98);
+            position: relative;
+            top: 230px;
+            left: 40px;
+            font-size: 1.5rem;
+            font-family: Roboto, sans-serif !important;
+            font-weight: 400;
+        }
+
+        h1 {
+            color: rgb(40, 198, 98);
+            position: relative;
+            top: 240px;
+            left: 50px;
+            font-size: 6rem;
+            font-family: Roboto, sans-serif;
+            font-weight: bold;
+
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-evenly;
+            position:relative;
+            top:300px;
+        }
+
+        .box {
+
+            width: 269px;
+            height: 200px;
+            background-color:white;
+            margin: 10px;
+        }
+        .tu{
+            width:100px;
+            height:100px;
+            background-color: aqua;
+        }
+        .holder{
+            display:flex;
+            justify-content: center;
+            width: 269px;
+            height: 200px;
+            margin:10px;
+            align-items: center;
+            background-color:rgb(39, 134, 155);
+        }
+        .item{
+            width:110px;
+            height:110px;
+            background-color:#f1e7f2;
+            border-radius:60px;
+            text-align: center;
+            
+            
+        }
+       .flexty{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+       }
+       .boxi{
+        width:150px;
+        height:150px;
+            background-color:#333333;
+       
+        position:relative;
+        top:50px;
+        text-align:center;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h5>WE WORK HARD, WE PLAY HARD</h5>
+            <h1>Work With Us</h1>
+
+            <div class="flex">
+                <div class="holder">
+                    <div class="item"><span style="position:relative;top:25px"><img src="onen.png" width="60px" height="60px"></span></div>
+                    <h4 Class="n" style="position:absolute;top:170px;padding-top:10px ">Advisory</h4>                   
+                </div>
+                <div class="holder"><div class="item"><span style="position:relative;top:25px"><img src="two.png" width="60px" height="70px"></span></div><h4 Class="n" style="position:absolute;top:170px;padding-top:10px ">Development</h4>  </div>
+                <div class="holder"><div class="item"><span style="position:relative;top:25px"><img src="three.png" width="60px" height="70px"></span></div><h4 Class="n" style="position:absolute;top:170px;padding-top:10px ">Planing</h4> </div>
+                <div class="holder"><div class="item"><span style="position:relative;top:25px"><img src="four.png" width="60px" height="70px"></span></div><h4 Class="n" style="position:absolute;top:170px;padding-top:10px ">Strategy</h4> </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="flexty">
+            <div class="boxi"><h3 style="position:relative;top:30px;color:white">Headline</h3><span style="position:relative;top:50px;color:white">Sample footer text</span></div>
+            <div class="boxi"><h3 style="position:relative;top:30px;color:white">Headline</h3><span style="position:relative;top:50px;color:white">Sample footer text</span></div>
+            <div class="boxi"><h3 style="position:relative;top:30px;color:white">Headline</h3><span style="position:relative;top:50px;color:white">Sample footer text</span></div>
+        </div>
+        <span style="color:white;position:relative;
+        top: 80px;
+        margin-left: 525px">Template created with Nicepage.</span>
+    </div>
+    </div>
+
+</body>
+
+</html>
